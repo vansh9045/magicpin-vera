@@ -656,7 +656,7 @@ class DeterministicComposer:
         body = (
             f"Hi {salutation}, notice for {s.merchant_name}: your Google Business profile is currently unverified. "
             f"Verified listings in {s.locality} receive on average +{uplift}% more customer calls and directions. "
-            f"Verification takes 5 minutes by phone or postcard. Want me to guide you through the verification steps now?"
+            f"Verification takes 5 minutes by phone or postcard. Reply YES and I'll send you the step-by-step verification link now."
         )
         return ComposedOutput(
             conversation_id=message_formatter.format_conversation_id(s),

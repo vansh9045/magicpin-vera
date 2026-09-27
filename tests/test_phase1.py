@@ -25,7 +25,7 @@ def test_models_instantiation():
     assert health.contexts_loaded.merchant == 50
 
     meta = MetadataResponse(**METADATA)
-    assert meta.team_name == "Team Vera Elite"
+    assert meta.team_name == "Vansh"
 
     action = ActionItem(
         conversation_id="conv_1",

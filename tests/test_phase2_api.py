@@ -37,7 +37,7 @@ def test_metadata():
     response = client.get("/v1/metadata")
     assert response.status_code == 200
     data = response.json()
-    assert data["team_name"] == "Team Vera Elite"
+    assert data["team_name"] == "Vansh"
     assert "deterministic" in data["approach"]
     assert "version" in data
     assert "submitted_at" in data
