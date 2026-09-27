@@ -10,11 +10,11 @@ BOT_START_TIME = time.time()
 
 # Team & Metadata information per GET /v1/metadata specification
 METADATA = {
-    "team_name": "Team Vera Elite",
-    "team_members": ["Architect"],
+    
+    "team_member": ["vansh"],
     "model": "deterministic-engine-v1",
     "approach": "deterministic provenance-bound signal prioritization, structured grounded composition, strict category taboos, and zero-hallucination guardrails",
-    "contact_email": "team@example.com",
+    "contact_email": "vanshchaudhary10140@gmail.com",
     "version": "1.0.0",
     "submitted_at": "2026-04-26T08:00:00Z"
 }
