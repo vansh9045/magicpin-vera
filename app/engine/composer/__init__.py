@@ -1,0 +1,3 @@
+"""
+Composer package initialization
+"""
