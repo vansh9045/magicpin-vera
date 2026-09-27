@@ -1,4 +1,5 @@
 # Vera Message Engine — Submission
+Live bot URL: https://magicpin-vera-lqvd.onrender.com
 
 A deterministic message-composition bot built for magicpin's Vera AI Challenge.
 
